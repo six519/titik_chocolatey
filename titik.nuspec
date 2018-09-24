@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>titik</id>
+    <version>2.0.0</version>
+    <title>titik (Install)</title>
+    <authors>Ferdinand E. Silva</authors>
+    <projectUrl>https://github.com/six519/titik2</projectUrl>
+    <packageSourceUrl>https://github.com/six519/titik2</packageSourceUrl>
+    <releaseNotes>
+      Initial release of Titik Interpreter
+    </releaseNotes>
+    <tags>titik interpreter programming language software application</tags>
+    <summary>Titik Interpreter</summary>
+    <description>Titik Programming Language/Interpreter Windows Release. This is for educational/experimental purpose only.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
