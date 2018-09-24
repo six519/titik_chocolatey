@@ -6,7 +6,8 @@
     <title>titik (Install)</title>
     <authors>Ferdinand E. Silva</authors>
     <projectUrl>https://github.com/six519/titik2</projectUrl>
-    <packageSourceUrl>https://github.com/six519/titik2</packageSourceUrl>
+    <packageSourceUrl>https://github.com/six519/titik_chocolatey</packageSourceUrl>
+    <licenseUrl>https://github.com/six519/titik2/blob/master/LICENSE</licenseUrl>
     <releaseNotes>
       Initial release of Titik Interpreter
     </releaseNotes>
