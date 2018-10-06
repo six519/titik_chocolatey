@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://dl.bintray.com/six519/Generic/setup_2.0.0.exe'
+$url        = 'https://dl.bintray.com/six519/Generic/setup_2.0.1.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'titik*' 
 
-  checksum      = '5e80c182b1518a9a7e225def0dd65a72a05fe1cb5b95db6cca39f11587f464c4'
+  checksum      = 'f23d21be3dd61c9de827781ac999b17eeb796b528c689d81070fbeae2a5bd9f3'
   checksumType  = 'sha256'
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' 
 }
